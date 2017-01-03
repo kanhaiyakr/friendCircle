@@ -83,4 +83,5 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  #rackup private_pub.ru -s thin -E production - use thing command on terminal to start rackup server
 end

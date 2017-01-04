@@ -2,6 +2,7 @@
 
 <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <%= f.error_notification %>
+  <img src="https://ssl.gstatic.com/s2/oz/images/notifications/spinner_32_794cfa28f324131c58c8934183d55d25.gif"></img>
 
 <div class="form-group">
     <%= f.input :email, required: true, autofocus: true %>
